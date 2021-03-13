@@ -1,0 +1,3 @@
+http://brain-development.org/ixi-dataset/
+
+T2 weighted

@@ -1,0 +1,40 @@
+Statustical Anlysis
+
+                 Fold       Sens       Spe       Accu    F1 score   con_matrix
+                 5          98.68     99.77      99.29    99.19       674 2
+				                                                      9 871
+
+                 10         99.12     99.77      99.50    99.41       674 2
+				                                                      6 874
+
+                 15         99.12     99.66      99.42    99.34       673 3
+				                                                      6 874
+																	  
+																	  
+Classifier Comparison
+
+             Classifier		Sens       Spe       Accu    F1 score   con_matrix  Time(sec)
+
+                Tree         9036       9759     9422      9358      656 20      0.7541
+				                                                     70  810
+
+                SVM          8886       9732     9332      9263      654 22      0.9087
+				                                                     82 798
+
+                KNN          8974       9865     9441      9386      665 11       0.7959
+				                                                     76 804        
+
+                LR           99.12     99.77      99.50    99.41      674 2       0.7424
+				                                                      6 874
+																
+
+Comparison to sate of the art method
+
+   Method   	        Sens       Spe       Accu		
+   
+MAMFM+SVM              94.08        93.64   93.83
+WE+HBP                 96.15        97.16   96.72
+DWT+PCA+LS-SVM         95.86        96.48   96.21
+SWE+DT                 96.75        98.30   97.62
+BWT+RKPCA+LR           97.12        98.25   97.76
+NSSE+LR (proposed)     99.12        99.77   99.50 
